@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DineWithMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_user">CreateUserActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Navigation drawer -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Friends</item>
+        <item>Events</item>
+        <item>Recipes</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_menu_activitiy">MenuActivitiy</string>
+    <string name="title_activity_friend">FriendActivity</string>
+    <string name="title_activity_add_friend_dialog">AddFriendDialog</string>
+    <string name="title_activity_recipes">Recipes</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_add_recipe">AddRecipeActivity</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+    <string name="title_activity_invites">InvitesActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+    <string name="title_activity_friend_details">FriendDetailsActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_add_event">AddEventActivity</string>
+
+    <!-- Bubbles and bells (Buttons, textfields, ...) -->
+
+
+    <!-- General buttons -->
+    <string name="SaveButton">Save</string>
+    <string name="AcceptButton">Accept</string>
+    <string name="DeclineButton">Decline</string>
+    <string name="AddButton">+</string>
+
+    <!-- Menus and titles -->
+    <string name="MenuTitle">Menu</string>
+    <string name="EventTitle">Events</string>
+    <string name="RecipeTitle">Recipes</string>
+    <string name="FriendTitle">Friends</string>
+    <string name="InvitesTitle">Invites</string>
+    <string name="LogoutButton">Logout</string>
+    <!-- Login bubbles and bells -->
+    <string name="LoginButton">Login</string>
+    <string name="RememberMe">Remember me?</string>
+
+    <!-- Create user bubbles and bells -->
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Firstname">First name</string>
+    <string name="Lastname">Last name</string>
+    <string name="RegisterButton">Register</string>
+
+    <!-- Friend bubbles and bells -->
+    <string name="FriendUsername">Username</string>
+    <string name="SendFriendInvite">Send invite</string>
+
+    <!-- Event bubbles and bells -->
+    <string name="EventName">Name</string>
+    <string name="EventDate">Date</string>
+    <string name="EventTime">Time</string>
+    <string name="EventRecipe">Recipe</string>
+    <string name="host">Host</string>
+    <string name="RecipeForEvent">Recipe</string>
+    <string name="Hosting">Hosting</string>
+    <string name="Attending">Attending</string>
+
+    <!-- Recipe bubbles and bells -->
+    <string name="RecipeName">Name</string>
+    <string name="RecipePeople">People</string>
+    <string name="RecipeIngredients">Ingredients</string>
+    <string name="RecipeInstructions">Instructions</string>
+    <string name="PictureButton">Pic</string>
+
+    <!-- Invites bubbles and bells -->
+    <string name="FriendInvites">Friend invites</string>
+    <string name="EventInvites">Event invites</string>
+    <string name="title_activity_share_photo">SharePhotoActivity</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.itca.dwm.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CreateUserActivity"
+            android:label="@string/title_activity_create_user" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".activities.MenuActivity"
+            android:label="@string/title_activity_menu_activitiy" >
+        </activity>
+        <activity
+            android:name=".activities.FriendActivity"
+            android:label="@string/title_activity_friend" >
+        </activity>
+        <activity
+            android:name=".dialogs.AddFriendDialog"
+            android:label="@string/title_activity_add_friend_dialog"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".activities.Recipes"
+            android:label="@string/title_activity_recipes" >
+        </activity>
+        <activity
+            android:name=".activities.RecipeActivity"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity
+            android:name=".activities.AddRecipeActivity"
+            android:label="@string/title_activity_add_recipe" >
+        </activity>
+        <activity
+            android:name=".activities.RecipeDetailsActivity"
+            android:label="@string/title_activity_recipe_details" >
+        </activity>
+        <activity
+            android:name=".activities.InvitesActivity"
+            android:label="@string/title_activity_invites" >
+        </activity>
+        <activity
+            android:name=".activities.EventDetailsActivity"
+            android:label="@string/title_activity_event_details" >
+        </activity>
+        <activity
+            android:name=".activities.FriendDetailsActivity"
+            android:label="@string/title_activity_friend_details" >
+        </activity>
+        <activity
+            android:name=".activities.EventActivity"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name=".activities.AddEventActivity"
+            android:label="@string/title_activity_add_event" >
+        </activity>
+        <activity
+            android:name=".SharePhotoActivity"
+            android:label="@string/title_activity_share_photo" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.itca.dwm.android.activities.RecipeActivity" 
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/NavigateCreateRecipeButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:text="@string/AddButton"
+                android:onClick="AddClick" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/RecipeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/list" >
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

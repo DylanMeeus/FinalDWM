@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#B6D4FA</color>
+<color name="list">#FAFAFA</color>    
+<color name="acceptbutton">#00FF00</color>
+<color name="declinebutton">#FFFF0000</color>
+</resources>
